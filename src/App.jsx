@@ -72,7 +72,7 @@ const App = () => {
               onChange={filterContacts}
               type="text"
               className="flex-grow h-9 rounded border border-yellow-500 bg-transparent
-          text-white mx-4"
+          text-white mx-4 pl-10"
             />
           </div>
           <IoMdPersonAdd
