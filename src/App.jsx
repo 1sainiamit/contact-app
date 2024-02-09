@@ -3,11 +3,11 @@ import Navbar from "./components/Navbar";
 import { FaSearchengin } from "react-icons/fa";
 import { IoMdPersonAdd } from "react-icons/io";
 import { db } from "./config/firebase";
-import { collection, getDocs, onSnapshot } from "firebase/firestore";
+import { collection, onSnapshot } from "firebase/firestore";
 import ContactCard from "./components/ContactCard";
 import AddAndUpdateContact from "./components/AddAndUpdateContact";
 import useDisclose from "./hooks/useDisclose";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import NoContactFound from "./components/NoContactFound";
 
