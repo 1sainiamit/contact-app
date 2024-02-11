@@ -37,6 +37,7 @@ const AddAndUpdateContact = ({ isOpen, onClose, isUpdate, contact }) => {
     <Modal isOpen={isOpen} onClose={onClose}>
       <Formik
         validationSchema={contactSchemaValidation}
+        // THIS IS TO ADD VALUE IN THE FORM, I.E NAME AND EMAIL
         initialValues={
           isUpdate
             ? { name: contact.name, email: contact.email }
